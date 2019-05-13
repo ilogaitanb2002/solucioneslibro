@@ -12,6 +12,8 @@
     <p>→ Calcola la forza totale esercitata dalle cariche positive sulla carica negativa.</p>
     <p>→ Calcola il modulo della velocità della sferetta.</p>
      
+    <p><img src="./Ejercicio15.png" alt="Esquema"></p>
+    
     <h2>Dati: </h2>
     <p>
         \(q = 5,0 * 10^-6 C\)
@@ -23,7 +25,23 @@
 
     <h2>Procedimento</h2>
     <p>
-        Dobiamo partire dalla formula della forza elettrica: \(F=k \frac{|q||q^1|}{r^2}\)
+        Essendo che si vuole trovare la forza totale esercitata su q' dobiamo partire dalla formula della forza elettrica: \(F=k \frac{|q||q'|}{d^2}\) 
     </p>
+    <p> Già da adesso possiamo intendere che, per avere una traiettoria circolare, la forza netta dev'essere equivalente alla forza centripeta: \(F_c = m a_c\)</p>
+    <p>Inoltre, se teniamo conto della prima formula, possiamo anche capire che la forza di Coulomb dipende dalla distanza per cui, nel caso particolare di questo problema, dobiamo calcolare il valore dell'ipotenusa del triangolo formato dalle diverse forze del diagrama. Per Pitagora, quindi: \(d^2 = l^2 + r^2 \)</p>
+
+    <p>Nel particolare abbiamo: $$(|F_AC| = |F_BC| = k \frac{qq'}{d^2}$$ dove \(d= (l^2 + r^2)^\frac{1}{2} \)</p>
+    <p>Analizzando le forze A e B, possiamo vedere che le loro componenti orizzontali si cancellano e rimangono, da sommare, soltanto le componenti verticali.</p>
+    <p>La somma delle forze (sostituendo i valori con le formule note nei passi precedenti) è data da: $$F_BC_y = |F_BC| * sen \theta =$$</p>
+    <p>$$F_BC * r/d = k * \frac{qq'}{d^3} * r^2 =$$</p>
+    <p>$$\frac{kqq'r}{((l^2 + r^2)^\frac{1}{2})^3}$$</p>
+
+    <p>Se riprendiamo la proposizione iniziale: \(F_T = F_C\) e teniamo conto della formula \(\omega = 2\pi * F\) otteniamo: $$2k \frac{qq'r}{(l^2 + r^2)^\frac{3}{2}}=m \omega^2 r$$</p>
+    <p>$$d = ^3 \sqrt\frac{kqq'}{mw^2} = ^3\sqrt\frac{8.99*10^9 * 5*10^-6*4*10^-6}{9*10^-3 * (2000\pi)^2}$$</p>
+    <p>$$0.056 m $$</p>
+
+    <p> Calcoliamo r: $$r = \sqrt (d^2-l^2) = $$</p>
 </body>
 </html>
+
+<!--https://github.com/ilogaitanb2002/solucioneslibro-->
